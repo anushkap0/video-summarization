@@ -1,0 +1,21 @@
+# data & features (large, not redistributable)
+data/
+raw_videos/
+raw_dl/
+*.h5
+*.tar
+*.zip
+*.mp4
+# training outputs
+results/
+results_v3/
+results_v3_*/
+*.pth
+*.json.map.json
+*.log
+# python / backups
+__pycache__/
+*.pyc
+*.bak
+*.bak2
+config_v3_run*.py
